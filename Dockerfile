@@ -5,6 +5,7 @@ COPY index.html /usr/share/nginx/html/
 COPY styles.css /usr/share/nginx/html/
 COPY config.json /usr/share/nginx/html/
 COPY favicon.svg /usr/share/nginx/html/
+COPY resources /usr/share/nginx/html/resources/
 
 # Copy and prepare startup script
 COPY docker-entrypoint.sh /docker-entrypoint.sh
